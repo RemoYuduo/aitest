@@ -6,7 +6,8 @@ const ctx = canvas.getContext('2d');
 const gridSize = 20; // 网格大小
 const tileCount = canvas.width / gridSize; // 网格数量
 
-// 蛇的初始配置
+
+// 蛇的初始配置   注释
 let snake = {
     x: 10,
     y: 10,
